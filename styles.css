@@ -1,7 +1,15 @@
-h1 {
-	color: rgb(238, 0, 255);
-	margin-bottom: -5px;
+body{
+    background-image: linear-gradient(45deg,rgb(247, 3, 44),rgb(11, 220, 235));
+    height: 100vh;
+    width: auto;
 }
+
+#main{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
 p {
 	margin-bottom: -10px;
 }
@@ -100,10 +108,6 @@ p {
 	font-size: 20px;
 }
 
-
-#main {
-	text-align: center;
-}
 
 
 #ins {
