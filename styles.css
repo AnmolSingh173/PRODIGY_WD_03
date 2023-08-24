@@ -2,12 +2,20 @@ body{
     background-image: linear-gradient(45deg,rgb(247, 3, 44),rgb(11, 220, 235));
     height: 100vh;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #main{
     text-align: center;
     background-color: black;
     color: white;
+    border-radius: 5%;
+    height: auto;
+    width: 80%;
+    padding: 2%;
+    border: 2px solid white;
 }
 
 p {
@@ -37,65 +45,65 @@ p {
 }
 /* 3*3 Grid */
 #b1{
-	border-bottom: 1px solid rgb(128, 128, 128);
-	border-right: 1px solid rgb(128, 128, 128);
+	border-bottom: 1px solid rgb(0, 0, 0);
+	border-right: 1px solid rgb(0, 0, 0);
 }
 
 #b2 {
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	border-right: 1px solid rgb(0, 0, 0);
+	border-left: 1px solid rgb(0, 0, 0);
 }
 
 #b3 {
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
+	border-bottom: 1px solid black;
+	border-left: 1px solid rgb(0, 0, 0);
 }
 
 #b4 {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
+	border-top: 1px solid rgb(0, 0, 0);
+	border-bottom: 1px solid rgb(0, 0, 0);
+	border-right: 1px solid rgb(0, 0, 0);
 }
 	
 #b5 {
-	border: 1px solid gray;
+	border: 1px solid rgb(0, 0, 0);
 }
 
 #b6 {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
+	border-top: 1px solid rgb(0, 0, 0);
+	border-bottom: 1px solid rgb(0, 0, 0);
+	border-left: 1px solid rgb(0, 0, 0);
 }
 
 #b7 {
-	border-top: 1px solid gray;
-	border-right: 1px solid gray;
+	border-top: 1px solid rgb(0, 0, 0);
+	border-right: 1px solid rgb(0, 0, 0);
 }
 
 #b8 {
-	border-top: 1px solid gray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
+	border-top: 1px solid rgb(0, 0, 0);
+	border-right: 1px solid rgb(0, 0, 0);
+	border-left: 1px solid rgb(0, 0, 0);
 }
 
 #b9 {
-	border-top: 1px solid gray;
-	border-left: 1px solid gray;
+	border-top: 1px solid rgb(0, 0, 0);
+	border-left: 1px solid rgb(0, 0, 0);
 }
 /* Reset Button */
 #but {
 	box-sizing: border-box;
 	width: 95px;
 	height: 40px;
-	border: 1px solid dodgerblue;
+	border: 2px solid dodgerblue;
 	margin-left: auto;
 	border-radius: 8px;
 	font-family: Verdana,
 		Geneva, Tahoma, sans-serif;
 
 	background-color: whitesmoke;
-	color: rgb(255, 139, 30);
+	color: rgb(0, 0, 0);
 	font-size: 20px;
 	cursor: pointer;
 }
