@@ -1,6 +1,7 @@
 # PRODIGY_WD_03
 # Tic Tac Toe Web Application
-You can try out the game yourself by visiting the [TIC TAC TOE](insert_live_demo_link_here).
+You can try out the game yourself by visiting the [TIC TAC TOE](https://anmolsingh173.github.io/PRODIGY_WD_03/
+).
 ![Tic Tac Toe Screenshot](https://github.com/AnmolSingh173/PRODIGY_WD_03/blob/main/images/tic-tac-toe_test.png)
 
 Welcome to my interactive and engaging Tic Tac Toe web application! This project was developed as part of my internship at Prodigy Infotech, where I honed my skills in HTML, CSS, and JavaScript. With this application, users can enjoy a classic game of Tic Tac Toe against each other right in their web browsers.
