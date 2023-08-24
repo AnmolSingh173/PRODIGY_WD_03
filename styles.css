@@ -1,33 +1,113 @@
-body{
-    background-image: linear-gradient(45deg,rgb(0, 255, 149),rgb(241, 0, 0));
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1 {
+	color: rgb(238, 0, 255);
+	margin-bottom: -5px;
+}
+p {
+	margin-bottom: -10px;
+}
+.ui {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.row {
+	display: flex;
+}
+.cell {
+	border: black;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+}
+.cell:active {
+	outline: none;
+}
+/* 3*3 Grid */
+#b1{
+	border-bottom: 1px solid rgb(128, 128, 128);
+	border-right: 1px solid rgb(128, 128, 128);
 }
 
-.header{
-   text-align: center;
-    color:rgb(255, 255, 255);
-    font-size: 1.5rem;
-    background-color: black;
-    height: auto;
-    width: 80%;
-    border-radius: 5%;
-    border: solid 5px rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#b2 {
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
 }
 
-.header hr{
-    width: 80%;
+#b3 {
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
 }
 
-.rules{
-    height: auto;
-    width: 50%;
-    text-align: center;
+#b4 {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+}
+	
+#b5 {
+	border: 1px solid gray;
 }
 
+#b6 {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+#b7 {
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+#b8 {
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+#b9 {
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+}
+/* Reset Button */
+#but {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid dodgerblue;
+	margin-left: auto;
+	border-radius: 8px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+
+	background-color: whitesmoke;
+	color: rgb(255, 139, 30);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+#print {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	color: rgb(53, 255, 30);
+	font-size: 20px;
+}
+
+
+#main {
+	text-align: center;
+}
+
+
+#ins {
+	font-family: Verdana,Geneva,
+					Tahoma, sans-serif;
+	color: rgb(255, 30, 139);
+}
